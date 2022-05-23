@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hover Effects</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+          $('.toggle').click(function(){
+              $('ul').toggleClass('active');
+          })
+      })
+  </script>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#" class="logo"><img src="img/logo.jpg" alt=""></a>
+            <a class="toggle">Menu</a>
+            <ul class="">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+    </section>
+</body>
+</html>
